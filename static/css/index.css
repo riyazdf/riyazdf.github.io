@@ -1,0 +1,16 @@
+#image-links {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+#image-links img {
+  vertical-align: bottom;
+}
+
+#image-links a + a img {
+  margin-left: 150px;
+}
+
+#image-links a:hover img {
+  opacity: 0.6;
+}

@@ -1,0 +1,37 @@
+.site-header {
+  font-size: 2.5em;
+  padding-top: 5%;
+}
+
+#content {
+  width: 1180px;
+  margin: 30px auto 80px auto;
+}
+
+#review-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#review-header p + p {
+  margin-top: 0.6em;
+}
+
+#reviews {
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.review-title {
+  font-size: 0.9em;
+  color: #FFFFF0;
+}
+
+.review-contributors {
+  font-size: 0.75em;
+  color: #383838;
+}
+
+.review-slides {
+  font-size: 0.75em;
+}
