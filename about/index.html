@@ -1,25 +1,7 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>About</title>
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet" type="text/css" />
-    <link href="/static/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="/static/css/main.css" rel="stylesheet" type="text/css" />
-    <link href="/static/css/about.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <img id="photo" src="/static/img/riyaz.png" alt="Hi!">
-    <header class="site-header">
-      <h1>About</h1>
-    </header>
-    <section id="content">
-      <p>Hi there!  My name is Riyaz Faizullabhoy and I'm a second year EECS major at UC Berkeley!</p>
-      <p>I'm a proud member of <a href="https://hkn.eecs.berkeley.edu">HKN</a>, the EECS Honor society.</p>
-      <p>In my spare time I like to learn new skills (recently, web scraping with BeautifulSoup), and play tennis.</p>
-      <p>While I enjoy working with many aspects of the EECS world, my particular interests include big data, and biocomputing (I've done some work with RNA sequencing).</p>
-    </section>
-    <footer class="site-footer">
-      <a href="/">HOME</a><span class="separator">&ndash;</span><a href="/tutoring/">TUTORING</a><span class="separator">&ndash;</span><a href="/static/pdf/resume.pdf">RESUME</a><span class="separator">&ndash;</span><a href="mailto:riyazdf@gmail.com">CONTACT</a>
-    </footer>
-  </body>
-</html>
+---
+layout: post
+title: About
+---
+
+{% capture about %}{% include about.md %}{% endcapture %}
+<div class="text-center">{{ about | markdownify }}</div>
