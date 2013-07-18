@@ -67,6 +67,10 @@ a:hover {
   margin-left: 100px;
 }
 
+.pf {
+  margin-bottom: 25px;
+}
+
 .post-content {
   line-height: 1.5;
 }
@@ -76,8 +80,12 @@ a:hover {
   margin-bottom: 1.5em;
 }
 
+.post-content dd {
+  margin-bottom: 0.5em;
+}
+
 .post-content a {
-  color: #bb2200;
+  color: #F5F5F5;
 }
 
 .post-content em {
