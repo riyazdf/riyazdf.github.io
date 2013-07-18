@@ -1,0 +1,7 @@
+---
+layout: post
+title: About
+---
+
+{% capture about %}{% include about.md %}{% endcapture %}
+<div class="text-center">{{ about | markdownify }}</div>

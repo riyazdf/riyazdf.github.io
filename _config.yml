@@ -1,0 +1,3 @@
+title: Riyaz Faizullabhoy
+permalink: /:year/:month/:day/:title/
+exclude: [README.md]
