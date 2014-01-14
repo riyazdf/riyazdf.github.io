@@ -1,18 +1,136 @@
----
-layout: post
-title: Riyaz Faizullabhoy
----
+<!doctype html>
+<html>
+<head>
 
-<div class="clearfix">
-  <div class="center-outer">
-    <div class="center-inner">
-      <div id="image-links">
-        <a href="http://www.facebook.com/riyazdf"><img src="/static/img/facebook.png" title="Facebook" alt="Facebook" /></a>
-        <a href="https://plus.google.com/116981460285023377311/"><img src="/static/img/google+.png" title="Google+" alt="Google+" /></a>
-        <a href="http://www.linkedin.com/pub/riyaz-faizullabhoy/41/939/599"><img src="/static/img/linkedin.png" title="LinkedIn" alt="LinkedIn" /></a>
-        <a href="http://twitter.com/riyazdf"><img src="/static/img/twitter.png" title="Twitter" alt="Twitter" /></a>
-        <a href="http://github.com/riyazdf"><img src="/static/img/github.png" title="GitHub" alt="GitHub" /></a>
-      </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1500px; maximum-scale=1.4;"/> 
+
+    <title>Riyaz Faizullabhoy</title>
+    <link rel="stylesheet" href="css/curtain.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster|Codystar|Oleo+Script' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="js/curtain.js"></script>
+
+<script>
+    $(function(){
+       $('.curtains').curtain({
+           scrollSpeed: 300,
+           controls: '.menu',
+           curtainLinks: '.curtain-links',
+           nextSlide: function(){
+            console.log("ok");
+           }
+       });
+    });
+
+    $(document).ready(function() {
+        $("#down-arrow").click(function () {
+              $(this).find('img').effect("bounce", { times:1 }, 800);
+              $("#scroll-text").fadeToggle(300);
+              $("#scroll-text").fadeToggle(300);
+        });
+    });
+</script>
+
+</head>
+<body>
+
+
+<ol class="curtains">
+    <li id="title" class="cover" >
+        <div class="header" data-fade="550" >
+                <h1>
+                    <span>RIYAZ</span><br>
+                    FAIZULLABHOY
+                </h1>
+        </div>
+
+   
+
+    <div id="down-arrow">
+        <a class="img-arrow" href="#inline1"><img src="static/img/down_arrow.gif" alt="Scroll To Start" width="88" /></a>
     </div>
-  </div>
-</div>
+    <div id="scroll-text" style="font-family: 'Raleway';">
+        <span>Scroll Down!</span>
+    </div>  
+
+    </li>
+
+
+
+
+    <li id="about">
+        <div class="container">
+            <div class="text">
+                <h2>About</h2>
+                <p>Hi there! My name is Riyaz Faizullabhoy and I'm a third year EECS major at UC Berkeley!<br><br>
+                This semester I'm helping out as a <a href="http://www-inst.eecs.berkeley.edu/~cs162/sp14/">TA for CS162</a>.<br>
+                I'm also a proud member and Department Relations officer of <a href="https://hkn.eecs.berkeley.edu/">HKN, the EECS Honor society</a>.<br><br>
+                In my spare time I like to run, travel, and play tennis.  While I enjoy working with many aspects of the EECS world, my particular interests include big data, biocomputing, and artificial intelligence.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img class="img-circle" src="static/img/riyaz.png" alt="Riyaz in the wild" />
+            </div>
+        </div>
+    </li>
+
+
+
+
+    <li id="tutoring">
+        <div class="container">
+            <div class="text">
+                <h2>Tutoring</h2>
+                <p>In addition to TAing CS162, I've also helped as a <a href="http://www-inst.eecs.berkeley.edu/~cs61c/fa13">TA for CS61C</a>, and I really enjoy tutoring and holding review sessions for lower division EECS classes.  Here are some I've helped put together:</p>
+            </div>
+
+            <div id="review-list">
+            <ul>
+                <li><a href="static/pdf/70MT1fa13.pdf">CS70 MIDTERM 1 (Fall 2013)</a><br>Eric Atkinson, Jyo Shim, Riyaz Faizullabhoy</li>
+
+                <li><a href="static/pdf/61bMT2fa13.pdf">CS61B MIDTERM 2 (Fall 2013)</a><br>Alec Mouri, Evan Ye, Jene Li, Manuk Hovanesian, Riyaz Faizullabhoy</li>
+
+                <li><a href="static/pdf/42MT1fa13.pdf">EE42/100 MIDTERM 1 (Fall 2013)</a><br>Jyo Shim, Paroma Varma, Riyaz Faizullabhoy</li>
+
+                <li><a href="static/pdf/61aMT1sp13.pdf">CS61A MIDTERM 1 (Spring 2013)</a><br>Jon Kotker, Joy Jeng, Mark Miyashita, Riyaz Faizullabhoy</li>
+
+                <li><a href="static/pdf/61bMT1sp13.pdf">CS61B MIDTERM 1 (Spring 2013)</a><br>Anthony Sutardja, Harrison Wallace, Riyaz Faizullabhoy</li>
+
+                <li><a href="static/pdf/61bMT2sp13.pdf">CS61B MIDTERM 2 (Spring 2013)</a><br>Christopher Hall, Joey Moghadam, Preetum Nakkiran, Riyaz Faizullabhoy, Vaibhav Agarwal</li>
+
+                <li><a href="static/pdf/61cMT1sp13.pdf">CS61C MIDTERM 1 (Spring 2013)</a><br>Kelvin Chou, Riyaz Faizullabhoy, Sagar Karandikar, Sung Roa Yoon</li>
+
+                <li><a href ="static/pdf/61bMT2fa12.pdf">CS61B MIDTERM 2 (Fall 2012)</a><br>Edwin Liao, Harrison Wallace, John Du, Lu Cheng, Riyaz Faizullabhoy</li>
+            </ul>
+            </div>
+        </div>
+    </li>
+
+
+    <li id="contact">
+        <div class="container">
+            <div class="text">
+                <h2>Contact</h2>
+                <p>Find me!  If you'd like to get in touch, feel free to shoot me an email at riyazdf (your pick of gmail.com or berkeley.edu).</p>
+                <p>If you'd like to take a peek at my resume, <a href="static/pdf/resume.pdf">click here</a>.</p>
+            </div>
+
+            <div id="image-links">
+                <a href="http://www.facebook.com/riyazdf"><img src="static/img/facebook.png" title="Facebook" alt="Facebook" /></a>
+                <a href="https://plus.google.com/116981460285023377311/"><img src="static/img/google+.png" title="Google+" alt="Google+" /></a>
+                <a href="http://www.linkedin.com/pub/riyaz-faizullabhoy/41/939/599"><img src="static/img/linkedin.png" title="LinkedIn" alt="LinkedIn" /></a>
+                <a href="http://twitter.com/riyazdf"><img src="static/img/twitter.png" title="Twitter" alt="Twitter" /></a>
+                <a href="http://github.com/riyazdf"><img src="static/img/github.png" title="GitHub" alt="GitHub" /></a>
+                <span class="stretch"></span>
+            </div>
+        </div>
+    </li>
+</body>
+</html>
