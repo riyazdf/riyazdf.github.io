@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     color: #fff;
 }
 
@@ -11,9 +11,9 @@ h1 {
     vertical-align: baseline;
     margin: 0;
     padding: 0;
-    font-size: 120px; 
-    font-weight: 100; 
-    text-align: left; 
+    font-size: 120px;
+    font-weight: 100;
+    text-align: left;
 }
 
 h1 span {
@@ -21,32 +21,32 @@ h1 span {
 }
 
 h2 {
-    font-size: 36px; 
+    font-size: 36px;
     font-family: 'Codystar';
 }
 
 p {
-    font-size:24px; 
-    font-weight: 300; 
+    font-size:24px;
+    font-weight: 300;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a:visited{
-  color:#D0D0D0;
+  color:#FFFFFF;
 }
 
 a:link{
-  color:#606060;
+  color:#E0E0E0;
 }
 
 .container {
-    position:absolute; 
-    top:50%; 
-    left:50%; 
-    margin:-250px 0 0 -512px; 
-    width:1024px; 
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-250px 0 0 -512px;
+    width:1024px;
     height: 500px;
-} 
+}
 
 
 
@@ -56,44 +56,44 @@ a:link{
     }
 
     #title .header {
-        position:absolute; 
-        top:30%; 
-        left:50%; 
-        margin:-0px 0 0 -400px; 
-        width:800px; 
+        position:absolute;
+        top:30%;
+        left:50%;
+        margin:-0px 0 0 -400px;
+        width:800px;
         text-align:center;
     }
 
     #title img {
-        position: absolute; 
-        bottom: 10px; 
-        left:50%; 
+        position: absolute;
+        bottom: 10px;
+        left:50%;
         margin: 0 0 0 -44px;
     }
 
     #title #scroll-text {
-        display: none; 
-        position: absolute; 
-        bottom: 70px; 
-        left:50%; 
+        display: none;
+        position: absolute;
+        bottom: 70px;
+        left:50%;
         margin: 0 0 0 -44px;
     }
 
     .container {
-        margin:-35% 0 0 -40%; 
+        margin:-35% 0 0 -40%;
         width:85%; height: 85%;
-    } 
+    }
 
     .text {
         margin: 15% 0 0 0;
-        text-align: left; 
-        width: 50%; 
+        text-align: left;
+        width: 50%;
         float: left;
     }
 
     /*ABOUT*/
     #about {
-        background-color: #2c3e50;
+        background-color: #34495e;
     }
 
     #about .about-image img {
@@ -127,10 +127,10 @@ a:link{
         background-color: #27ae60;
     }
 
-    #image-links {   
+    #image-links {
         width: 540px;
         margin-top:40%;
-        margin-left: auto; 
+        margin-left: auto;
         margin-right: auto;
 
         text-align: justify;
