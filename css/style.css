@@ -21,14 +21,17 @@ h1 span {
 }
 
 h2 {
-    font-size: 36px;
-    font-family: 'Codystar';
+    font-size: 48px;
+    font-family: 'Lovelo';
 }
 
 p {
-    font-size:24px;
-    font-weight: 300;
+    font-size:21px;
     -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul {
+    font-family: 'Open Sans';
 }
 
 a:visited{
