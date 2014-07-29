@@ -30,6 +30,15 @@ p {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
+@font-face {
+    font-family: Lovelo;
+    src: url("../fonts/Lovelo_Black") /* EOT file for IE */
+}
+@font-face {
+    font-family: Lovelo;
+    src: url("../fonts/Lovelo_Black.ttf") /* TTF file for CSS3 browsers */
+}
+
 p, ul {
     font-family: 'Open Sans';
 }
@@ -132,7 +141,7 @@ a:link{
 
     #image-links {
         width: 540px;
-        margin-top:40%;
+        margin-top: 50%;
         margin-left: auto;
         margin-right: auto;
 
