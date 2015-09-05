@@ -1,169 +1,116 @@
-body {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
+h1, h2, h3, h4, h5, p, a {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
 
-h1 {
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
-    font-size: 120px;
+    font-size: 50px;
     font-weight: 100;
     text-align: left;
 }
 
-h1 span {
-    font-weight: 700;
+.darkFont {
+    color: #34495e;;
 }
 
-h2 {
-    font-size: 48px;
-    font-family: 'Lovelo';
+.lightFont {
+    color: #F1FFFA;;
 }
 
-p {
-    font-size:21px;
-    -webkit-font-smoothing: subpixel-antialiased;
+.offWhite {
+    background-color: #F1FFFA;
 }
 
-@font-face {
-    font-family: Lovelo;
-    src: url("../fonts/Lovelo_Black") /* EOT file for IE */
-}
-@font-face {
-    font-family: Lovelo;
-    src: url("../fonts/Lovelo_Black.ttf") /* TTF file for CSS3 browsers */
+.firstBackground {
+    background-color: #4D7EA8;
 }
 
-p, ul {
-    font-family: 'Open Sans';
+.secondBackground {
+    background-color: #828489;
 }
 
-a:visited{
-  color:#FFFFFF;
+.thirdBackground {
+    background-color: #9E90A2;
 }
 
-a:link{
-  color:#E0E0E0;
+#logo {
+    height: 150px;
 }
 
-.container {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin:-250px 0 0 -512px;
-    width:1024px;
-    height: 500px;
+.containerCentering {
+    position: relative;
+    height: calc(100%);
 }
 
+.topLeft {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
+.centerCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
-/*TITLE COVER*/
-    #title {
-        background-color: #2980b9;
-    }
+.centerLeftCol {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 40%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
-    #title .header {
-        position:absolute;
-        top:30%;
-        left:50%;
-        margin:-0px 0 0 -400px;
-        width:800px;
-        text-align:center;
-    }
+.centerRightCol {
+    position: absolute;
+    float: right;
+    top: 50%;
+    left: 80%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
-    #title img {
-        position: absolute;
-        bottom: 10px;
-        left:50%;
-        margin: 0 0 0 -44px;
-    }
+.centerBottom {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
-    #title #scroll-text {
-        display: none;
-        position: absolute;
-        bottom: 70px;
-        left:50%;
-        margin: 0 0 0 -44px;
-    }
+.about-image img {
+    width: 30%;
+    padding: 10%;
+}
 
-    .container {
-        margin:-35% 0 0 -40%;
-        width:85%; height: 85%;
-    }
-
-    .text {
-        margin: 15% 0 0 0;
-        text-align: left;
-        width: 50%;
-        float: left;
-    }
-
-    /*ABOUT*/
-    #about {
-        background-color: #34495e;
-    }
-
-    #about .about-image img {
-        float: right;
-        margin: 20% 0 0 0;
-        border-radius: 20%;
-    }
-
-    /*TUTORING*/
-    #tutoring {
-        background-color: #1abc9c;
-    }
-
-    #tutoring .text {
-        width: 33%;
-    }
-
-    #tutoring #review-list {
-        float: right;
-        margin-top: 20%;
-        margin-right: -5%;
-        width: 66%;
-    }
-
-    #tutoring li {
-        margin-bottom: 3%;
-    }
-
-    /*CONTACT*/
-    #contact {
-        background-color: #27ae60;
-    }
-
-    #image-links {
-        width: 540px;
-        margin-top: 50%;
-        margin-left: auto;
-        margin-right: auto;
-
-        text-align: justify;
-        -ms-text-justify: distribute-all-lines;
-        text-justify: distribute-all-lines;
-    }
-
-    #image-links a {
-        vertical-align: top;
-        display: inline-block;
-        *display: inline;
-        zoom: 1;
-    }
-
-    #image-links img:hover {
-        opacity: 0.6;
-    }
-
-    .stretch {
-        width: 100%;
-        display: inline-block;
-        font-size: 0;
-        line-height: 0
-    }
+.img-circle {
+  border-radius: 40%;
+}
