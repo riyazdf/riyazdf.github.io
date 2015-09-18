@@ -13,6 +13,45 @@
     }
   </script>
 </head>
+<style>
+
+    core-scroll-header-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #eee;
+    }
+
+    /* background for toolbar when it is at its full size */
+    core-scroll-header-panel::shadow #headerBg {
+      background-image: url("./static/img/background.jpg");
+    }
+
+    /* background for toolbar when it is condensed */
+    core-scroll-header-panel::shadow #condensedHeaderBg {
+      background-color: #34495e;
+    }
+
+    core-toolbar {
+      color: #f1f1f1;
+      fill: #f1f1f1;
+      background-color: transparent;
+    }
+    core-icon {
+      margin-right: 5px;
+    }
+
+    .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      margin-left: 70px !important;
+    }
+    </style>
 <body class="darkFont">
   <div id="header">
     <h1 class="title">
