@@ -13,100 +13,55 @@ a, a:visited, a:hover, a:active {
 }
 
 .title {
+    width: 350px;
+    height: 100px;
+    position: relative;
+}
+
+.titleText {
     font-family: 'Raleway', sans-serif;
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    margin: 0;
+    margin-left: 130px;
     padding: 0;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
     text-align: left;
+}
+
+.titlePicture {
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    border-radius: 20%;
 }
 
 .darkFont {
     color: #34495e;;
 }
 
-.lightFont {
-    color: #F1FFFA;;
-}
-
 .offWhite {
     background-color: #F1FFFA;
-}
-
-.firstBackground {
-    background-color: #4D7EA8;
-}
-
-.secondBackground {
-    background-color: #73C490;
 }
 
 #logo {
     height: 150px;
 }
 
-.containerCentering {
-    position: relative;
-    height: calc(100%);
-}
-
-.topLeft {
-    position: absolute;
-    top: 15%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.centerCenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.centerLeftCol {
-    position: absolute;
+#header {
     float: left;
-    top: 50%;
-    left: 40%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    height: 150px;
+    width: calc(80%);
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 10px;
 }
 
-.centerRightCol {
-    position: absolute;
-    float: right;
-    top: 50%;
-    left: 80%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.centerBottom {
-    position: absolute;
-    left: 50%;
-    bottom: 8%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.about-image img {
-    width: 30%;
-    padding: 10%;
-}
-
-.img-circle {
-  border-radius: 40%;
+#container {
+    float: left;
+    height: 800px;
+    width: calc(80%);
+    margin-left: 100px;
+    margin-top: 100px;
 }
